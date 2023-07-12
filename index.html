@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>project</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inside a">
+        <img class="axs" src="./img/File.aspx3_.png" alt="">
+        <h3>Multi-cloud DBaaS on Apache Cassandra</h3>
+        <li class="matn1">Start in minutes, No credit card required. Up to 80 GB free monthly.</li>
+        <li class="matn2">Build faster with REST,GraphQL,CQL and JSON/Document APIs.</li>
+        <h4>Introducing Mobinnet!</h4>
+        <ul class="matn3">Astra Streaming is an open, multi-cloud event-streaming and data-</ul>
+        <ul class="matn4">streaming cloud service powered by Apache Pulsar,now available</ul>
+        <ul class="matn5">within Astra when you sign up for an account</ul>
+        <img class="axs2" src="./img/download.jpeg" alt="">
+    </div>
+        <div class="inside b">
+            <h1>Create an Account</h1>
+            <div class="forms-inputs">
+               <span>Name</span>
+               <input class="name" autocomplete="off" placeholder="   Enter your name"></div>
+            <div class="forms-inputs2">
+              <span>Department</span>
+              <input class="name2" autocomplete="off" placeholder="   Enter your Department"></div>
+            <div class="forms-inputs3">
+              <span>Company</span>
+              <input class="name3" autocomplete="off" placeholder="   Enter your Company"></div>
+            <div class="forms-inputs4">
+              <span>Mobile no</span>
+              <input class="name4" autocomplete="off" placeholder="   Enter your Mobile no"></div>
+            <div class="forms-inputs5">
+              <span>Work no</span>
+              <input class="name5" autocomplete="off" placeholder="   Enter your Work no"></div>
+            <div class="forms-inputs6">
+              <span>Email</span>
+              <input type="email" class="name6" autocomplete="off" placeholder="   Enter your Email"></div>
+            <div class="forms-inputs7">
+              <span>Password</span>
+              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+              <input type="password" class="name7" autocomplete="off"  placeholder="   Enter your Password" id="password">
+              <div class="spannn"><img src="./img/8275675.png" id="eyeicon"></div></div>
+            <div class="invalid-feedback">Password must be 8 character!</div>
+            
+            
+            <button class="aaa" type="submit" id="myBtn">Create Account</button>
+            
+            <div class="link">Already have an account?<a class="link1" href="./login.html" href="./login.css">Login</a></div>
+              <div id="myModal" class="modal">
+              
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p class="invalidate">Are you sure?</p>
+                  <button class="invalid">Yes</button>
+                  <button class="invalid">No</button>
+                </div>
+              </div>
+              
+              <script>
+              var modal = document.getElementById("myModal");
+              
+              var btn = document.getElementById("myBtn");
+              
+              var span = document.getElementsByClassName("close")[0];
+              
+              btn.onclick = function() {
+                modal.style.display = "block";
+              }
+              
+              span.onclick = function() {
+                modal.style.display = "none";
+              }
+              
+              window.onclick = function(event) {
+                if (event.target == modal) {
+                  modal.style.display = "none";
+                }
+              }
+              let eyeicon = document.getElementById("eyeicon")
+        let password = document.getElementById("password")
+
+        eyeicon.onclick = function(){
+            if(password.type == "password"){
+                password.type = "text";
+            }else{
+                password.type = "password"
+            }
+        }
+              </script>
+          </body>
+</html>

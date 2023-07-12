@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inside a">
+            <h1>Sign In</h1>
+            <div class="forms-inputs1">
+                <span>Email</span>
+                <input type="email" class="name1" autocomplete="off" placeholder=></div>
+            <div class="forms-inputs2">
+                 <span>Password</span>
+                 <input type="password" class="name2" autocomplete="off" id="password"><div class="spannn">
+                    <img src="./img/8275675.png" id="eyeicon"></div>
+                </div>
+            <div class="link2">
+                <a class="link1" href="./password.html" href="./password.css">Forgot Password?</a></div>
+            <div class="link3">
+                <input class="link4" type="checkbox" name="" id="">
+                <span>Remember Me</span></div>
+            <div class="link5">
+                <a class="link6" href="./index.html" href="./style.css">Don't you have ac account?SignUP</a></div>
+            <button class="aaa" type="submit" id="myBtn">Sign In</button>
+        </div>
+        <div class="inside b">
+            <h3>Multi-cloud DBaaS on Apache Cassandra</h3>
+            <li class="matn1">Start in minutes, No credit card required. Up to 80 GB free monthly.</li>
+            <li class="matn2">Build faster with REST,GraphQL,CQL and JSON/Document APIs.</li>
+            <h4>Introducing Mobinnet!</h4>
+            <ul class="matn3">Astra Streaming is an open, multi-cloud event-streaming and data-</ul>
+            <ul class="matn4">streaming cloud service powered by Apache Pulsar,now available</ul>
+            <ul class="matn5">within Astra when you sign up for an account</ul>
+            <img class="axs2" src="./img/download.jpeg" alt="">
+        </div>
+        </div>
+        <script>
+             let eyeicon = document.getElementById("eyeicon")
+        let password = document.getElementById("password")
+
+        eyeicon.onclick = function(){
+            if(password.type == "password"){
+                password.type = "text";
+            }else{
+                password.type = "password"
+            }
+        }
+        </script>
+</body>
+</html>

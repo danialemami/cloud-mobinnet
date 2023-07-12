@@ -1,0 +1,349 @@
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.inside {
+  width: 1100px;
+  height: 600px;
+}
+.a {
+  background: rgb(86, 90, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(86, 90, 86, 1) 0%,
+    rgba(22, 84, 84, 1) 0%
+  );
+}
+.b {
+  background-color: #fff;
+}
+
+.axs {
+  color: #fff;
+  width: 8wh;
+  height: 10vh;
+  margin-top: 2.5rem;
+  margin-left: 10rem;
+}
+h3 {
+  color: #fff;
+  margin-left: 5rem;
+}
+.matn1 {
+  color: #fff;
+  margin-left: 6rem;
+}
+.matn2 {
+  color: #fff;
+  margin-left: 6rem;
+}
+h4 {
+  color: #fff;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+.matn3 {
+  color: #fff;
+  margin-left: 2.5rem;
+}
+.matn4 {
+  color: #fff;
+  margin-left: 2.5rem;
+}
+.matn5 {
+  color: #fff;
+  margin-left: 2.5rem;
+}
+.axs2 {
+  width: 15rem;
+  height: 7rem;
+  margin-left: 11rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.name {
+  height: 6vh;
+  width: 20vw;
+  border-radius: 0.5rem;
+}
+
+.forms-inputs {
+  margin-left: 12rem;
+  position: relative;
+}
+.forms-inputs span {
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.name2 {
+  height: 6vh;
+  width: 20vw;
+  border-color: #888;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.forms-inputs2 {
+  margin-left: 12rem;
+  position: relative;
+}
+.forms-inputs2 span {
+  margin-top: 1.8rem;
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.name3 {
+  height: 6vh;
+  width: 20vw;
+  border-color: #888;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.forms-inputs3 {
+  margin-left: 12rem;
+  position: relative;
+}
+.forms-inputs3 span {
+  margin-top: 1.8rem;
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.name4 {
+  height: 6vh;
+  width: 20vw;
+  border-color: #888;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.forms-inputs4 {
+  margin-left: 12rem;
+  position: relative;
+}
+.forms-inputs4 span {
+  margin-top: 1.8rem;
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.name5 {
+  height: 6vh;
+  width: 20vw;
+  border-color: #888;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.forms-inputs5 {
+  margin-left: 12rem;
+  position: relative;
+}
+.forms-inputs5 span {
+  margin-top: 1.8rem;
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.name6 {
+  height: 6vh;
+  width: 20vw;
+  border-color: #888;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.forms-inputs6 {
+  margin-left: 12rem;
+  position: relative;
+}
+.forms-inputs6 span {
+  margin-top: 1.8rem;
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.name7 {
+  height: 6vh;
+  width: 20vw;
+  border-color: #888;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.forms-inputs7 {
+  margin-left: 12rem;
+  position: relative;
+  display: block;
+  align-items: center;
+}
+.forms-inputs7 span {
+  margin-top: 1.8rem;
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 10px;
+}
+.forms-inputs7 input{
+  /* font-size: 15px; */
+  color: #888;
+}
+.forms-inputs7 img{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  margin-right: 5rem;
+}
+.invalid-feedback {
+  color: #888;
+  font-size: small;
+  margin-left: 12.5rem;
+  margin-top: 0.7rem;
+}
+.aaa{
+  background: rgb(35, 100, 99);
+  background: linear-gradient(
+    90deg,
+    rgba(35, 100, 99, 1) 0%,
+    rgba(48, 235, 14, 1) 100%
+  );
+  border: none;
+  border-radius: 0.5rem;
+  height: 6vh;
+  width: 20vw;
+  margin-left: 12rem;
+  margin-top: 0.7rem;
+}
+.aaa:hover{
+  color: #fff;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background: rgb(86, 90, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(86, 90, 86, 1) 0%,
+    rgba(10, 28, 28, 1) 0%
+  );
+  margin: auto;
+  padding: 20px;
+  border-radius: 0.5rem;
+  border: 1px solid #888;
+  height: 15%;
+  width: 30%;
+}
+.invalidate {
+  color: #fff;
+}
+.invalid {
+  background-color: darkgreen;
+  border-radius: 0.5rem;
+  border: none;
+  width: 12vw;
+  height: 5vh;
+  position: relative;
+  justify-content: space-between;
+  text-align: start;
+  justify-items: start;
+}
+
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input .placeholdre {
+  font-size: smaller;
+}
+
+.link {
+  font-size: small;
+  color: rgb(86,90,86);
+  color: linear-gradient(90deg, rgba(86,90,86,1) 0%, rgba(22,84,84,1) 0%);;
+  margin-left: 15rem;
+}
+.link1 {
+  font-size: small;
+color: darkblue;
+text-decoration: none;
+}
+
+.spannn{
+  margin-top: -2rem;
+  margin-left: 15rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .axs2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and(max-width: 1000px) {
+  .axs2 {
+    width: 2px;
+    height: 2px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .name .forms-inputs .forms-inputs span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+  }
+}
